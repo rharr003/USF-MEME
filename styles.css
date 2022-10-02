@@ -1,0 +1,53 @@
+#main {
+  background-color: aliceblue;
+  padding: 25px;
+  margin: 20px;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.sub-heading {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+
+#meme-section {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: normal;
+}
+
+.meme {
+  position: relative;
+  color: white;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+
+.toptext {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-shadow: 3px 0 0 black;
+}
+
+.bottomtext {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.meme img {
+  width: 500px;
+  height: 500px;
+}
